@@ -100,7 +100,7 @@ header, .navbar {
     padding: 0 100px;
 }
 .main_title {
-    font-size: 4rem;
+    font-size: 3.5rem;
     font-weight: 600;
 }
 .sub_title {
@@ -185,4 +185,36 @@ header, .navbar {
 }
 .card img:hover {
     transform: scaleY(1.1);
+}
+/* ======== PRICE ==========*/
+#price-area {
+    background-color: #fff;
+}
+.price_header h3{
+    font-size: 3.5rem;
+    font-weight: 600;
+}
+.price_header p {
+    color: #575757;
+    font-family: 'Lato', sans-serif;
+    margin-top: 1rem;
+}
+.price_box {
+    margin-top: 2rem;
+}
+.price_header h4 {
+    margin-bottom: 1rem;
+    font-weight: 600;
+    color: #e48900;
+    text-shadow: .1rem .1rem 3px #000;
+}
+.price_text {
+    margin: 2rem 0;
+}
+.price_text h5 {
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+.price_text span {
+    color: #575757;
 }
