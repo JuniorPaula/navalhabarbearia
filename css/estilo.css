@@ -243,3 +243,76 @@ header, .navbar {
     color: #575757;
     font-family: 'Lato', sans-serif;
 }
+
+/* ====== CONTACT ===========*/
+#contact-area {
+    background-color: #fff ;
+    margin: 40px 0;
+}
+.contact_header h2 {
+    margin-bottom: 3rem;
+    font-size: 3.5rem;
+    font-weight: 600;
+}
+.form-control {
+    width: 80%;
+    margin-bottom: 2rem;
+    border: none;
+    border-bottom: .1rem solid #2222;
+}
+.contact_btn {
+    color: #fff;
+    text-transform: uppercase;
+}
+.contact_btn:hover {
+    color: #e48900;
+}
+.contact_aside {
+    text-align: center;
+}
+.contact_aside h5 {
+    font-size: 1rem;
+    font-family: sans-serif;
+}
+.contact_aside i {
+    font-size: 2rem;
+    margin: .5rem 0;
+    color: #e48900;
+}
+.contact_aside p {
+    color: #575757;
+    font-size: .8rem;
+}
+/* =========== FOOTER ===========*/
+footer {
+    background-color: #0d0e0f;
+}
+.footer_link h5 {
+    color: #fff;
+    text-align: center;
+}
+.social_list i {
+    font-size: 2rem;
+    color: #575757;
+    text-decoration: none;
+    margin-right: 2rem;
+    margin-top: 2rem;
+}
+.footer_link ul li {
+    list-style: none;
+    margin-top: 1rem;
+}
+.footer_link a {
+    text-decoration: none;
+    color: #575757;
+    font-family: sans-serif;
+}
+.footer_copy {
+    margin-bottom: 0;
+    padding-bottom: 0;
+    font-family: sans-serif;
+}
+.copyright a {
+    text-decoration: none;
+    color: #fff;
+}
