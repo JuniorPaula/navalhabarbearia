@@ -218,3 +218,28 @@ header, .navbar {
 .price_text span {
     color: #575757;
 }
+
+/*============= TEAM ===============*/
+.team_header {
+    text-align: center;
+    margin-top: 2rem;
+}
+.team_header h2 {
+    font-size: 4rem;
+    font-weight: 600;
+}
+.team_box {
+    margin-top: 3rem;
+}
+.team_text {
+    text-align: center;
+    margin-top: 2rem;
+    margin-bottom: 1.5rem;
+}
+.team_text h4 {
+    color: #e48900;
+}
+.team_text p {
+    color: #575757;
+    font-family: 'Lato', sans-serif;
+}
