@@ -83,6 +83,7 @@ header, .navbar {
 #about-area {
     background: #ffff;
     margin-top: 40px;
+    margin-bottom: 40px;
 }
 .box_about_left {
     position: relative;
@@ -99,7 +100,7 @@ header, .navbar {
     padding: 0 100px;
 }
 .main_title {
-    font-size: 40px;
+    font-size: 4rem;
     font-weight: 600;
 }
 .sub_title {
@@ -140,4 +141,48 @@ header, .navbar {
 }
 .main-btn a:hover {
     color: #e48900;
+}
+
+/* ========  SERVICE =========*/
+.service_header {
+    text-align: center;
+    margin-bottom: 80px;
+}
+.service_header h2 {
+    font-size: 4rem;
+    font-weight: 600;
+}
+.card {
+    box-shadow: 0.1rem 1px #575757;
+}
+.card-body {
+    position: relative;
+}
+.icon {
+    position: absolute;
+    top: -10%;
+    left: 40%;
+    width: 55px;
+    background-color: #e48900;
+    border-radius: 50rem;
+    padding: .5rem;
+}
+.card-body h4 {
+    margin-top: 1.5rem;
+    font-weight: 600;
+    font-size: 1.8rem;
+    text-align: center;
+}
+.card-body p {
+    color: #575757;
+    font-family: 'Lato', sans-serif;
+    font-size: 14px;
+    text-align: justify;
+}
+.card img {
+    transition: 1s;
+    cursor: pointer;
+}
+.card img:hover {
+    transform: scaleY(1.1);
 }
