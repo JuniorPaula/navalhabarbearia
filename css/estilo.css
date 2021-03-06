@@ -1,10 +1,81 @@
-h1 {
-    font-family: 'Yeseva One', cursive;
-    font-size: 65px;
-    font-weight: 900;
+body {
+    font-family: 'Yeseva one', cursive;
+    box-sizing: border-box;
 }
-h2 {
-    font-family: "Yeseva One", cursive;
-    font-weight: 400;
-    font-size: 50px;
-} 
+.row {
+    margin: 0;
+}
+.container {
+    padding: 70px 0;
+}
+
+/*==== BARRA DE NAVEGAÇÃO ========*/
+header, .navbar {
+    background-color: transparent;
+}
+.sticky {
+    background-color: #e48900;
+    padding: 20px 0;
+}
+
+#nav-container {
+    padding-top: 0;
+    padding-bottom: 0;
+}
+.navbar-brand {
+    padding: 0;
+    color: #ffff;
+}
+.navbar-dark .navbar-nav .nav-link {
+    color: #ffff;
+    font-size: 20px;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+.navbar-expand-md .navbar-nav .nav-link {
+    padding: 1rem .8rem;
+}
+
+/* ========= BANNER ====================*/
+.container-fluid {
+    padding: 0;
+}
+#home {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    position: relative;
+}
+.img-wrapper {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+.img-wrapper img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: .6;
+}
+.banner-text {
+    position: absolute;
+    top: 50%;
+    left: 5%;
+}
+.banner-text h1 {
+    color: #fff;
+    font-weight: 900;
+    font-size: 65px;
+    margin-bottom: 1rem;
+    text-shadow: .1rem .2rem 2px #000;
+}
+.banner-text p {
+    color: #fff;
+    font-size: 18px;
+    text-shadow: .1rem .1rem #000;
+}
+/* ======== CONTAINER AREA ========*/
+#container-area {
+    background: url(../img/bg.jpg);
+}
