@@ -316,3 +316,108 @@ footer {
     text-decoration: none;
     color: #fff;
 }
+
+/* ======== RESPONSIVE =============*/
+@media(max-width: 768px) {
+    /* HEADER */
+    .navbar-dark .navbar-nav .nav-link {
+        letter-spacing: 0;
+    }
+    .navbar-dark .navbar-nav .nav-link{
+        font-size: 15px;
+    }
+    .banner-text h1 {
+        font-size: 2.4rem;
+        text-shadow: 0.1rem 0.1rem 2px #000;
+    }
+    .banner-text p {
+        font-size: .8rem;
+    }
+    /* ABOUT */
+    .img_two {
+        bottom: 8%;
+    }
+    .about_box_right {
+        margin-top: 0;
+    }
+    .main_title {
+        font-size: 2.5rem;
+    }
+    .about_box_right p {
+        line-height: 18px;
+    }
+    .sub_title {
+        font-size: 1.5rem;
+    }
+    .about_box_right span {
+        font-size: 1.2rem;
+    }
+    .main-btn {
+        margin-left: 0;
+    }
+    /* SERVICES */
+    .card-body h4 {
+        font-size: 1.5rem;
+    }
+    /* FOOTER */
+    .footer_link h5 {
+        font-size: 1rem;
+    }
+}
+
+@media(max-width: 425px) {
+    /*HEADER */
+    .banner-text h1 {
+        font-size: 1.1rem;
+    }
+    .banner-text p {
+        font-size: .4rem;
+        text-shadow: .7px .7px #000;
+    }
+    /* ABOUT */
+    .img_two {
+        right: 1%;
+        bottom: -2%;
+    }
+    .about_box_right {
+        padding: 0 1rem;
+    }
+    /* SERVICES */
+        .service_header h2 {
+            font-size: 3rem;
+        }
+        .card {
+            margin-bottom: 1rem;
+        }
+    /* PRICES */
+    .price_header h3 {
+        font-size: 3rem;
+    }
+    /* TEAM */
+    .team_header h2 {
+        font-size: 3rem;
+    }
+    /* CONTACT */
+    .contact_header h2 {
+        font-size: 3rem;
+    }
+    .social_list {
+        margin-left: 5rem;
+    }
+    .contact_aside {
+        margin-top: 2rem;
+    }
+    .footer_link {
+        margin-top: 1rem;
+    }
+    .footer_link ul {
+        padding-left: 0;
+    }
+    .footer_link ul li {
+        text-align: center;
+        margin-top: 0;
+    }
+    footer .container {
+        padding: 0;
+    }      
+}
